@@ -1,15 +1,38 @@
 {
-    "atomType": "Molecule",
-    "name": "Test",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "a83c3d97-1cd7-4032-b800-c00fee907a6a",
-    "ioValues": [],
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "MM",
-    "fileTypeVersion": 1,
-    "compiledBom": {},
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "name": "Test",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "a83c3d97-1cd7-4032-b800-c00fee907a6a",
+  "ioValues": [],
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "name": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "bcc46ba6-9578-4084-957b-d209480d9d35",
+      "ioValues": []
+    },
+    {
+      "atomType": "Circle",
+      "name": "Circle",
+      "x": 0.35714285714285715,
+      "y": 0.5217391304347826,
+      "uniqueID": "c71a9079-a36b-412d-89d1-ee21b022fac4",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 60,
+          "currentEquation": "60"
+        }
+      ]
+    }
+  ],
+  "allConnectors": [],
+  "unitsKey": "MM",
+  "fileTypeVersion": 1,
+  "compiledBom": {},
+  "filetypeVersion": 1
 }
